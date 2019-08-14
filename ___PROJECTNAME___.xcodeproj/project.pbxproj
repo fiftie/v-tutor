@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182E7C9C2303E4D2000643F8 /* Koharu.png in Resources */ = {isa = PBXBuildFile; fileRef = 182E7C982303E4D2000643F8 /* Koharu.png */; };
+		182E7C9D2303E4D2000643F8 /* License.md in Resources */ = {isa = PBXBuildFile; fileRef = 182E7C992303E4D2000643F8 /* License.md */; };
+		182E7C9E2303E4D2000643F8 /* Koharu.moc3 in Resources */ = {isa = PBXBuildFile; fileRef = 182E7C9A2303E4D2000643F8 /* Koharu.moc3 */; };
+		182E7C9F2303E4D2000643F8 /* Koharu.motion3.json in Resources */ = {isa = PBXBuildFile; fileRef = 182E7C9B2303E4D2000643F8 /* Koharu.motion3.json */; };
+		182E7CA02303E5A3000643F8 /* libLive2DCubismCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B38765A62302DFFC0076A8E8 /* libLive2DCubismCore.a */; };
 		18A908A723015A1000BB4037 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A908A623015A1000BB4037 /* AVFoundation.framework */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -39,8 +44,6 @@
 		B38766672302E00A0076A8E8 /* SortableDrawable.c in Sources */ = {isa = PBXBuildFile; fileRef = B38766452302E00A0076A8E8 /* SortableDrawable.c */; };
 		B38766682302E00A0076A8E8 /* GlDraw.c in Sources */ = {isa = PBXBuildFile; fileRef = B38766472302E00A0076A8E8 /* GlDraw.c */; };
 		B38766692302E00A0076A8E8 /* Logging.c in Sources */ = {isa = PBXBuildFile; fileRef = B38766482302E00A0076A8E8 /* Logging.c */; };
-		B38766702302E7850076A8E8 /* Koharu in Resources */ = {isa = PBXBuildFile; fileRef = B335DE362302CD6E00A7C18C /* Koharu */; };
-		B38766712302E8550076A8E8 /* libLive2DCubismCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B38765A62302DFFC0076A8E8 /* libLive2DCubismCore.a */; };
 		FA8B4B97196703B400F8EB7C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8B4B96196703B400F8EB7C /* CoreMotion.framework */; };
 		FAE0E9651BAF967F0098DFA4 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE0E9641BAF967F0098DFA4 /* GameController.framework */; };
 		FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD779EDD0E26BA1200F39101 /* CoreAudio.framework */; };
@@ -94,6 +97,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182E7C982303E4D2000643F8 /* Koharu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Koharu.png; sourceTree = "<group>"; };
+		182E7C992303E4D2000643F8 /* License.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = License.md; sourceTree = "<group>"; };
+		182E7C9A2303E4D2000643F8 /* Koharu.moc3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Koharu.moc3; sourceTree = "<group>"; };
+		182E7C9B2303E4D2000643F8 /* Koharu.motion3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Koharu.motion3.json; sourceTree = "<group>"; };
 		187432F723015C3000DF4F86 /* SDL_opengles2_gl2ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_opengles2_gl2ext.h; sourceTree = "<group>"; };
 		187432F823015C3000DF4F86 /* SDL_test_random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_test_random.h; sourceTree = "<group>"; };
 		187432F923015C3000DF4F86 /* SDL_power.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_power.h; sourceTree = "<group>"; };
@@ -189,7 +196,6 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		945C4F52195AF17F00DBBF61 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B335DE142302CB0700A7C18C /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../../../../Downloads/SDL2-2.0.10/Xcode-iOS/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
-		B335DE362302CD6E00A7C18C /* Koharu */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Koharu; path = ../../Downloads/Components/sample/assets/Koharu; sourceTree = "<group>"; };
 		B335DE3A2302CDCF00A7C18C /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		B38762672302DF900076A8E8 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		B387626A2302DF900076A8E8 /* Koharu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Koharu.png; sourceTree = "<group>"; };
@@ -696,7 +702,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38766712302E8550076A8E8 /* libLive2DCubismCore.a in Frameworks */,
+				182E7CA02303E5A3000643F8 /* libLive2DCubismCore.a in Frameworks */,
 				B335DE3B2302CDCF00A7C18C /* Metal.framework in Frameworks */,
 				B335DE2C2302CB2600A7C18C /* libSDL2.a in Frameworks */,
 				18A908A723015A1000BB4037 /* AVFoundation.framework in Frameworks */,
@@ -715,6 +721,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182E7C972303E4D2000643F8 /* Koharu */ = {
+			isa = PBXGroup;
+			children = (
+				182E7C982303E4D2000643F8 /* Koharu.png */,
+				182E7C992303E4D2000643F8 /* License.md */,
+				182E7C9A2303E4D2000643F8 /* Koharu.moc3 */,
+				182E7C9B2303E4D2000643F8 /* Koharu.motion3.json */,
+			);
+			name = Koharu;
+			path = app/sample/assets/Koharu;
+			sourceTree = "<group>";
+		};
 		187431B323015C2F00DF4F86 /* lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -859,7 +877,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B335DE362302CD6E00A7C18C /* Koharu */,
+				182E7C972303E4D2000643F8 /* Koharu */,
 				FD77A07E0E26BDA900F39101 /* Default.png */,
 				FD77A07C0E26BD8C00F39101 /* Icon.png */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -2231,7 +2249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38766702302E7850076A8E8 /* Koharu in Resources */,
+				182E7C9F2303E4D2000643F8 /* Koharu.motion3.json in Resources */,
+				182E7C9D2303E4D2000643F8 /* License.md in Resources */,
+				182E7C9E2303E4D2000643F8 /* Koharu.moc3 in Resources */,
+				182E7C9C2303E4D2000643F8 /* Koharu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
